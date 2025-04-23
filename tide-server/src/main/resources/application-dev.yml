@@ -1,0 +1,29 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database:
+    username:
+    password:
+  alioss:
+    endpoint:
+    bucketName:
+    region:
+  redis:
+    host: localhost
+    port: 6379
+    database: 9
+  wechat:
+    appid:
+    secret:
+    # 添加模拟支付所需的配置，这些在开发环境中不会实际使用
+    # 但是为了避免空指针异常，还是需要提供这些值
+    mchid:
+    mchSerialNo:
+    privateKeyFilePath:
+    weChatPayCertFilePath:
+    notifyUrl:
+    refundNotifyUrl:
+
+
